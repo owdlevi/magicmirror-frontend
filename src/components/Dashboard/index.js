@@ -167,9 +167,6 @@ class Dashboard extends React.Component {
         </Drawer>
         <main className={classes.content}>
           <div className={classes.appBarSpacer} />
-          <Typography variant="h5" gutterBottom component="h2">
-            New Message
-          </Typography>
           <AddMessage />
           <MessageList />
         </main>
